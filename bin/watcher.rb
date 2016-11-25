@@ -3,7 +3,7 @@ require "ezmq"
 
 WIFI_MAC = "a0:8d:16:ed:71:a1"
 PORT = 7770
-INTERVAL_LENGTH = 1
+INTERVAL_LENGTH = 5
 DISCONNECT_LENGTH = 60
 last_connection = Time.now - DISCONNECT_LENGTH
 

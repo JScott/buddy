@@ -1,0 +1,4 @@
+mailgun:
+  secret_key: key-abcd1234
+  domain: example.com # greeter assumes the `mg.` subdomain
+recipient: me@example.com
