@@ -30,6 +30,7 @@ def set_state(to)
   publish($state)
 end
 
+puts "Starting..."
 loop do
   devices = `arp-scan -l | grep #{WIFI_MAC}`
   last_connection = Time.now if !devices.empty?
